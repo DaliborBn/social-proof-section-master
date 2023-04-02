@@ -1,5 +1,8 @@
-@media (min-width:500px) {
+@media (min-width:450px) {
   .intro-text {
+    h1 {
+      width: 34rem;
+    }
     a {
       font-size: 5rem;
       line-height: 4.5rem;
