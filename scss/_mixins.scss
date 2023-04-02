@@ -1,0 +1,48 @@
+@mixin card-custom {
+  background-color: $dark-pink;
+  padding: 3rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: none;
+  transition: all ease 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: $light-pink;
+    transform: translateY(2rem);
+  }
+  &:hover h4 {
+    color: $dark-pink;
+  }
+  .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+    margin-bottom: 2.5rem;
+  }
+  img {
+    width: 4rem;
+  }
+  .name {
+    margin-left: 2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+    color: $white;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.7rem;
+    color: $light-pink;
+    margin-top: 0.2rem;
+    transition: all ease 0.3s;
+  }
+  .card-body {
+    padding: 0;
+  }
+  p {
+    font-size: 1.7rem;
+    color: $white;
+    line-height: 2.2rem;
+  }
+}
+

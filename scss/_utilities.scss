@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&display=swap');
+
+$spartan: 'League Spartan', sans-serif;
+
+$dark-pink: hsl(300, 43%, 22%);
+$light-pink: hsl(333, 80%, 67%);
+$dark-grayish-pink: hsl(303, 10%, 53%);
+$light-grayish-pink: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+$body-bg: $white;
+$paragraph-margin-bottom: 0;
+$headings-margin-bottom: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $spartan;
+}

@@ -1,0 +1,59 @@
+@media (min-width:500px) {
+  .intro-text {
+    a {
+      font-size: 5rem;
+      line-height: 4.5rem;
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .custom-container {
+    max-width: 100rem;
+    margin: 6rem 5%;
+  }
+  .intro-text {
+    padding-right: 7%;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .card {
+    h3, h4, p {
+      font-size: 1.5rem;
+    }
+  }
+  .colton {
+    margin-bottom: 4rem;
+  }
+  .irene {
+   margin: 2rem 0;
+  }
+  .anne {
+    margin-top: 4rem;
+  }
+  .stars-box {
+    width: 85%;
+    &:nth-child(1) {
+      margin-right: auto;
+    }
+    &:nth-child(3) {
+      margin-left: auto;
+    }
+  }
+}
+
+@media (min-width:992px) {
+  .stars-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .stars-img {
+      margin: 0 2.7rem;
+    }
+    h2 {
+      margin-top: 0;
+      padding-right: 2rem;
+    }
+  }
+}
