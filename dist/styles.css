@@ -8924,8 +8924,6 @@ body {
   margin-bottom: 2rem;
   text-decoration: none;
   transition: all ease 0.3s; }
-  .intro-text a:hover {
-    color: #ee68a4; }
 
 .intro-text p {
   font-size: 1.8rem;
@@ -8962,12 +8960,6 @@ body {
   overflow: hidden;
   border: none;
   transition: all ease 0.3s; }
-  .colton:hover, .irene:hover, .anne:hover {
-    cursor: pointer;
-    background-color: #ee68a4;
-    transform: translateY(2rem); }
-  .colton:hover h4, .colton:hover .h4, .irene:hover h4, .irene:hover .h4, .anne:hover h4, .anne:hover .h4 {
-    color: #502050; }
   .colton .card-header, .irene .card-header, .anne .card-header {
     padding: 0;
     background-color: transparent;
@@ -8992,6 +8984,16 @@ body {
     font-size: 1.7rem;
     color: white;
     line-height: 2.2rem; }
+
+@media (hover: hover) {
+  .intro-text h1 a:hover, .intro-text .h1 a:hover {
+    color: #ee68a4; }
+  .colton:hover, .irene:hover, .anne:hover {
+    cursor: pointer;
+    background-color: #ee68a4;
+    transform: translateY(2rem); }
+  .colton:hover h4, .colton:hover .h4, .irene:hover h4, .irene:hover .h4, .anne:hover h4, .anne:hover .h4 {
+    color: #502050; } }
 
 @media (min-width: 450px) {
   .intro-text h1, .intro-text .h1 {
